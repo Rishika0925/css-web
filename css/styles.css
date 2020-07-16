@@ -1,0 +1,141 @@
+body{
+  margin:0;
+  text-align: center;
+
+}
+
+
+h1{
+  padding-top: 100px;
+  font-family: 'Fira Sans', sans-serif;
+  color:#595238;
+  line-height: 2;
+}
+
+
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  color:#595238;
+  font-weight:bold;
+}
+
+h3{
+
+  font-family: 'Fira Sans', sans-serif;
+  color:#595238;
+}
+p{
+
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #2bb2bb;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+.top-container{
+   background-color:#b7efcd;
+   height:600px;
+   width:100%;
+   position: relative;
+   }
+
+   .middle-container{
+     padding-top: 30px;
+     padding-bottom: 30px;
+   }
+   .bottom-container{
+     padding-top: 30px;
+     background-color: skyblue;
+
+   }
+
+   .cloud-one{
+     position: absolute;
+     right:300px;
+     top:80px;
+   }
+
+
+   .cloud-two{
+     position: absolute;
+     left:300px;
+     bottom:300px;
+   }
+
+
+   .mountain{
+    position:absolute;
+    bottom:0;
+    left:400px;
+     }
+
+
+.hlo{
+  width:200px;
+  height:200px;
+}
+.computer{
+  width:20%;
+  float:left;
+
+}
+.drawing{
+  width:20%;
+  float:right;
+}
+
+.skill-row{
+width:50%;
+margin:100px auto 100px auto;
+text-align: left;
+  }
+
+  .myButton {
+  	box-shadow: 0 10px 14px -7px #276873;
+  	background:linear-gradient(to bottom, #ffa931 5%, #febf63 100%);
+  	background-color:#ffa931;
+  	border-radius:8px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#2f2519;
+  	font-family: 'Fira Sans', sans-serif;
+  	font-size:20px;
+  	font-weight:bold;
+  	padding:12px 12px;
+  	text-decoration:none;
+  	text-shadow:0 1px 0 #3d768a;
+    margin-bottom: 20px;
+  }
+  .myButton:hover {
+  	background:linear-gradient(to bottom,  #febf63 5%, #ffa931 100%);
+  	background-color: #febf63;
+  }
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
+.footer-link{
+ background-color: skyblue;
+ font-size: 1.5rem;
+ text-decoration: none;
+ color:#11999E;
+ margin-left: 50px;
+ font-family: 'Fira Sans', sans-serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
